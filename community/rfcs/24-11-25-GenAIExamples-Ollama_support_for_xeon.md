@@ -1,4 +1,4 @@
-# Adding SLMs support for AgentQnA workflow in GenAIExamples on Intel Xeon platform
+# 24-11-25-GenAIExamples-Ollama_support_for_xeon
 
 The AgentQnA workflow in GenAIExamples uses LLMs as agents to intelligently manage the control flow in the pipeline. Currently, it relies on the OpenAI paid API for LLM services on the Xeon platform, which incurs costs and does not utilize Xeon for LLM computation. This RFC aims to add support for open-source small language models (SLMs) locally deployed on Xeon through Ollama for LLM engines.
 ## Author(s)
